@@ -25,4 +25,5 @@ function example_function_woocommerce_product_search_field_product_title( $title
 		$title .= '<p>' . $product_sku . '</p>';
 	}
 	return $title;
+	
 }

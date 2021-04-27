@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WPS Search Field Render SKU 
  * Plugin URI: https://github.com/geotsiokos/wps-search-field-render-sku
- * Description: 
+ * Description: Show the product SKU in the results dropdown when using the WooCommerce Product Search: Product Search Field
  * Author: gtsiokos
  * Author URI: https://netpad.gr/
  * License: GPLv3

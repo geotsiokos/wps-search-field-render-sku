@@ -22,7 +22,7 @@ function example_function_woocommerce_product_search_field_product_title( $title
 	$product = wc_get_product( $post_id );
 	if ( $product ) {
 		$product_sku = $product->get_sku();
-		$title .= '<span><br />' . $product_sku . '</span>';
+		$title .= '<br /><span>' . $product_sku . '</span>';
 	}
 	return $title;
 }

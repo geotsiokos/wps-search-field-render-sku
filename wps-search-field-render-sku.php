@@ -22,7 +22,8 @@ function example_function_woocommerce_product_search_field_product_title( $title
 	$product = wc_get_product( $post_id );
 	if ( $product ) {
 		$product_sku = $product->get_sku();
-		$title .= '<br /><span>' . $product_sku . '</span>';
+		$esc_title = esc_html( $title );
+		$esc_title .= '<br /><span>' . $product_sku . '</span>';
 	}
-	return $title;
+	return $esc_title;
 }

@@ -25,6 +25,5 @@ function example_function_woocommerce_product_search_field_product_title( $title
 		$esc_title = esc_html( $title );
 		$esc_title .= '<br /><span>' . $product_sku . '</span>';
 	}
-
 	return $esc_title;
 }
